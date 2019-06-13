@@ -292,6 +292,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 		},
 		getQueryParameters: function (oLocation) { 
+			//test
 			var oQuery = {};
 			var aParams = oLocation.search.substring(1).split("&");
 			for (var i = 0; i < aParams.length; i++) {
