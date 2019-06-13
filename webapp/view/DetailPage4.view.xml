@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.llMd.controller.DetailPage4" xmlns="sap.m">
+	<Page showHeader="true" title="Evento" showFooter="true" showNavButton="false">
+		<content>
+			<Text text="Informazioni dell'evento selezionato" width="250px" maxLines="50" wrapping="false" textAlign="Center" textDirection="Inherit"
+				visible="true" class="sapUiResponsiveMargin"/>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Aggancia Evento" type="Emphasized" icon="sap-icon://chain-link" iconFirst="true" width="auto" enabled="true" visible="true"
+						iconDensityAware="false" press="_onButtonPress"/>
+					<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+						press="_onButtonPress1"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+		<subHeader/>
+		<customHeader/>
+	</Page>
+</mvc:View>

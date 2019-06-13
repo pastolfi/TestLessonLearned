@@ -1,0 +1,64 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:unified="sap.ui.unified" controllerName="com.sap.build.standard.llMd.controller.DetailPage2">
+	<Page showHeader="true" title="Lesson Learned" showFooter="true" showNavButton="false">
+		<content>
+			<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+				<items>
+					<Label text="Titolo:" design="Bold" width="100%" required="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+					<TextArea rows="2" cols="20" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true" value="{CategoryName}"/>
+				</items>
+				<layoutData/>
+			</HBox>
+			<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+				<items>
+					<Label text="Testo 1:" design="Bold" width="100%" required="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+					<TextArea rows="5" cols="50" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true" class="sapUiResponsiveMargin" value="{Description}"/>
+					<Label text="Testo 2:" design="Bold" width="100%" required="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+					<TextArea rows="5" cols="50" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true" class="sapUiResponsiveMargin"/>
+				</items>
+				<layoutData/>
+			</HBox>
+			<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+				<items>
+					<Label text="Testo 3:" design="Bold" width="100%" required="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+					<TextArea rows="5" cols="50" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true" class="sapUiResponsiveMargin"/>
+					<Label text="Testo 4:" design="Bold" width="100%" required="false" textAlign="Center" textDirection="Inherit" visible="true"/>
+					<TextArea rows="5" cols="50" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true" class="sapUiResponsiveMargin"/>
+				</items>
+				<layoutData/>
+			</HBox>
+			<HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+				<items>
+					<unified:FileUploader buttonText="Upload Photo" style="Emphasized" icon="sap-icon://add-photo" buttonOnly="false" enabled="true" width="auto" iconFirst="true" uploadOnChange="true" maximumFileSize="10" mimeType="image/jpeg,image/gif,image/png,text/plain,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" uploadComplete="_onFileUploaderUploadComplete" change="_onFileUploaderChange" typeMissmatch="_onFileUploaderTypeMissmatch" fileSizeExceed="_onFileUploaderFileSizeExceed">
+						<unified:headerParameters/>
+						<unified:parameters/>
+						<unified:xhrSettings/>
+					</unified:FileUploader>
+				</items>
+				<layoutData/>
+			</HBox>
+			<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+				<items>
+					<Label text="Evento:" design="Bold" width="100%" required="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+					<Text xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" width="200px" maxLines="2" wrapping="false" textAlign="Center" textDirection="Inherit" visible="true" id="EventTag" cd:w5g.dt.context="/Categories/Products" text="{ProductName}"/>
+					<Button text="Evento" type="Emphasized" icon="sap-icon://add" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+				</items>
+				<layoutData/>
+			</HBox>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button text="Save Draft" type="Emphasized" icon="sap-icon://notes" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+					<Button text="Traduci" type="Emphasized" icon="sap-icon://hello-world" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress2"/>
+					<Button text="Send to approve" type="Emphasized" icon="sap-icon://approvals" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress3"/>
+					<Button text="Preview" type="Emphasized" icon="sap-icon://show" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress4"/>
+					<Button text="Cancel" type="Default" icon="sap-icon://cancel" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress5"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+		<subHeader/>
+		<customHeader/>
+	</Page>
+</mvc:View>

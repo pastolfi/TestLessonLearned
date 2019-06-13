@@ -1,0 +1,126 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.sap.build.standard.llMd.controller.DetailPage1">
+	<Page title="Detail Page" showHeader="true" showFooter="true" showNavButton="false">
+		<content>
+			<ObjectHeader xmlns:cd="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" intro="{CategoryID}" number="" numberUnit="" numberState="None" titleActive="false" backgroundDesign="Translucent" condensed="false" visible="true" cd:w5g.dt.context="/Categories" title="{CategoryName}">
+				<attributes/>
+				<statuses/>
+				<markers/>
+			</ObjectHeader>
+			<IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" selectedKey="Ok">
+				<items>
+					<IconTabFilter iconColor="Default" text="Italian" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+						<content>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 1" width="200px" maxLines="20" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 2" width="200px" maxLines="20" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 3" width="200px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 4" width="200px" maxLines="1" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Image src="/build/uilibraries/content/static/image-canvas.svg" height="200px" width="200px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+						</content>
+					</IconTabFilter>
+					<IconTabSeparator icon="" iconDensityAware="false"/>
+					<IconTabFilter iconColor="Default" text="English" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+						<content>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 1" width="200px" maxLines="20" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 2" width="200px" maxLines="20" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 3" width="200px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 4" width="200px" maxLines="1" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Image src="/build/uilibraries/content/static/image-canvas.svg" height="200px" width="200px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+						</content>
+					</IconTabFilter>
+					<IconTabSeparator icon="" iconDensityAware="false"/>
+					<IconTabFilter iconColor="Default" text="Spanish" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+						<content>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 1" width="200px" maxLines="20" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 2" width="200px" maxLines="20" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 3" width="200px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 4" width="200px" maxLines="1" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Image src="/build/uilibraries/content/static/image-canvas.svg" height="200px" width="200px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+						</content>
+					</IconTabFilter>
+					<IconTabSeparator icon="" iconDensityAware="false"/>
+					<IconTabFilter iconColor="Default" text="Portuguese" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+						<content>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 1" width="200px" maxLines="20" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 2" width="200px" maxLines="20" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Text text="Testo 3" width="200px" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+									<Text text="Testo 4" width="200px" maxLines="1" wrapping="false" textAlign="End" textDirection="Inherit" visible="true" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+							<HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+								<items>
+									<Image src="/build/uilibraries/content/static/image-canvas.svg" height="200px" width="200px" visible="true" densityAware="false" class="sapUiResponsiveMargin"/>
+								</items>
+								<layoutData/>
+							</HBox>
+						</content>
+					</IconTabFilter>
+				</items>
+				<content>
+					<Text text="Tab Bar Content goes here ..." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+				</content>
+			</IconTabBar>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<ToolbarSpacer width=""/>
+					<Button xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" text="Edit" type="Emphasized" icon="sap-icon://edit" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress" action:wiring="\{'press':\{'navigation':\{'routeName':'DetailPage2_binded','keys':[\{'name':'CategoryID','type':'Edm.Int32'\}]\}\}\}"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+	</Page>
+</mvc:View>

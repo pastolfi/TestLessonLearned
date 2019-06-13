@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.llMd.controller.Popover2" xmlns="sap.m">
+	<ResponsivePopover contentHeight="auto" contentWidth="250px" horizontalScrolling="true" modal="false" offsetX="0" offsetY="0"
+		placement="Right" showHeader="true" title="Event" verticalScrolling="true" visible="true">
+		<content>
+			<List width="100%">
+				<items>
+					<ActionListItem text="Visualizza Evento" visible="true" press="_onActionListItemPress"/>
+					<ActionListItem text="Aggancia Evento a LL" visible="true" press="_onActionListItemPress1"/>
+				</items>
+			</List>
+		</content>
+		<beginButton/>
+		<customHeader/>
+		<endButton/>
+		<subHeader/>
+	</ResponsivePopover>
+</core:FragmentDefinition>

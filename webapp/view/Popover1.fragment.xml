@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.llMd.controller.Popover1" xmlns="sap.m">
+	<ResponsivePopover contentHeight="auto" contentWidth="auto" horizontalScrolling="true" modal="false" offsetX="0" offsetY="0"
+		placement="Right" showHeader="true" title="Come vupi creare la Lesson Learned?" verticalScrolling="true" visible="true">
+		<content>
+			<List width="100%">
+				<items>
+					<ActionListItem text="From Scratch" visible="true" press="_onActionListItemPress"/>
+					<ActionListItem text="From Event" visible="true" press="_onActionListItemPress1"/>
+				</items>
+			</List>
+		</content>
+		<beginButton/>
+		<customHeader/>
+		<endButton/>
+		<subHeader/>
+	</ResponsivePopover>
+</core:FragmentDefinition>

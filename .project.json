@@ -1,0 +1,25 @@
+{
+	"dataBinding": {
+		"/webapp/view/MasterPage1.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/DetailPage1.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/DetailPage2.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/DetailPage3.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/DetailPage4.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Popover2.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/Popover1.view.xml": {
+			"entitySet": ""
+		}
+	}
+}

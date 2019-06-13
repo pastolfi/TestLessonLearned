@@ -1,0 +1,33 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.sap.build.standard.llMd.controller.MasterPage1">
+	<Page title="Lessons Learned" showHeader="true" showFooter="true" showNavButton="false">
+		<content>
+			<List items="{/Categories}" mode="None" width="100%" headerText="Header" footerText="" backgroundDesign="Solid" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" visible="true">
+				<infoToolbar/>
+				<headerToolbar>
+					<Toolbar enabled="true" visible="true" width="" design="Solid">
+						<content>
+							<SearchField placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+						</content>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<ObjectListItem xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" intro="{CategoryID}" title="{CategoryName}" number="" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress" action:wiring="\{'press':\{'navigation':\{'routeName':'DetailPage1_binded','keys':[\{'name':'CategoryID','type':'Edm.Int32'\}]\}\}\}">
+						<attributes/>
+						<firstStatus>
+							<ObjectStatus text="Draft/Approved" state="None" visible="true"/>
+						</firstStatus>
+						<secondStatus/>
+					</ObjectListItem>
+				</items>
+			</List>
+		</content>
+		<footer>
+			<OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+				<content>
+					<Button text="Create Lesson Learned" type="Emphasized" icon="sap-icon://create" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+				</content>
+			</OverflowToolbar>
+		</footer>
+		<headerContent/>
+	</Page>
+</mvc:View>
